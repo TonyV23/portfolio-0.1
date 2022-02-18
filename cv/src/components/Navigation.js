@@ -8,7 +8,7 @@ const Navigation = () => {
             <div className='id'>
                 <div className='idContent'>
                     <img src='./media/billGates.jpg' alt='profile_picture'/>
-                    <h3>Hakizimana Tony Carlin</h3>
+                    <h3>Tony Carlos</h3>
                 </div>
             </div>
 
