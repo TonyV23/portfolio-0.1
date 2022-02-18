@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const Contact = () => {
     return (
         <div>
-            contact
+            <Navigation/>
         </div>
     );
 };
