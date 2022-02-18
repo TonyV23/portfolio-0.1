@@ -44,7 +44,7 @@ const Navigation = () => {
             <div className='socialNetwork'>
                 <ul>
                     <li>
-                        <a href="https://www.twitter.com/tonyv23_" target="_blank" rel= "noopener noreferrer">
+                        <a href="https://www.twitter.com/tonyht23" target="_blank" rel= "noopener noreferrer">
                             <i className="fab fa-twitter"></i></a>
                     </li>
                     <li>
