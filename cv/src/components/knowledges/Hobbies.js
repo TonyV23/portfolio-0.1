@@ -12,8 +12,8 @@ const Hobbies = () => {
             </ul>
             <ul>
                 <li className='hobby'>
-                    <i className='fas fa-rapping'></i>
-                    <span>French Rap</span>
+                    <i className='fas fa-hiking'></i>
+                    <span>hikes</span>
                 </li>    
             </ul> 
             <ul>
@@ -24,14 +24,14 @@ const Hobbies = () => {
             </ul>
             <ul>
                 <li className='hobby'>
-                    <i className='fas fa-hacking'></i>
-                    <span>Hacking</span>
+                    <i className='fas fa-seedling'></i>
+                    <span>Permaculture</span>
                 </li>    
             </ul>
             <ul>
                 <li className='hobby'>
-                    <i className='fas fa-programming'></i>
-                    <span>Programming</span>
+                    <i className='fas fa-rocket'></i>
+                    <span>Espace</span>
                 </li>    
             </ul>
         </div>
