@@ -6,7 +6,7 @@ const Hobbies = () => {
             <h3>Interests</h3>
             <ul>
                 <li className='hobby'>
-                    <i className='fas fa-runnig'></i>
+                    <i className='fas fa-running'></i>
                     <span>Musculation</span>
                 </li>    
             </ul>
@@ -18,7 +18,7 @@ const Hobbies = () => {
             </ul> 
             <ul>
                 <li className='hobby'>
-                    <i className='fas fa-bitcoin'></i>
+                    <i className='fab fa-bitcoin'></i>
                     <span>Cryptocurrency</span>
                 </li>    
             </ul>
