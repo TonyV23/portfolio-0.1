@@ -19,7 +19,7 @@ class ProjectList extends Component {
         let radio = e.target.value 
         this.setState({selectedRadio : radio});
     }
-    
+
     render() {
         let { projects, radios, selectedRadio } = this.state; //le desturing
 
@@ -41,10 +41,8 @@ class ProjectList extends Component {
                 </ul>
                 <div className='projects'>
                     {
-                        projects.map((item) =>{
-                            return(
-                                <Project key= {item.id} item ={item}/>
-                            )
+                        projects.filter(item => item.languages.includes(selectedRadio)).map((item) =>{
+                            return( <Project key= {item.id} item ={item}/>)
                         })
                     }
                 </div>
