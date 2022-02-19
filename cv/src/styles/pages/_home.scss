@@ -1,7 +1,7 @@
 .home {
 
     .homeContent {
-      background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+      // background: linear-gradient(0deg, $color-1 50%, transparent 100%);
       min-height: $min-height;
       width: 100%;
       min-height: 500px;
@@ -14,7 +14,7 @@
         position: absolute;
         height: 100%;
         width: inherit;
-        // background: url('../../media/bigGates.jpg') no-repeat center/cover;
+        background: url('../../media/viper23_profil.jpg') no-repeat center/cover;
         z-index: -1;
         filter: brightness(30%);
       }
@@ -62,9 +62,9 @@
   }
   @media screen and (max-width:580px){
     .homeContent {
-      // &:after {
-      // background: url('../../media/bigGates.jpg') no-repeat 60% 50% /cover !important;
-      // }
+      &:after {
+      background: url('../../media/viper23_profil.jpg') no-repeat 60% 50% /cover !important;
+     }
       h1 {
         font-size: 3rem !important;
       }
