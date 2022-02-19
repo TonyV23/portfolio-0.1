@@ -4,7 +4,7 @@ class Project extends Component {
     
     state ={
         showInfo : false
-    }
+    };
 
     handleInfo = () =>{
         this.setState({ showInfo:!this.state.showInfo }) // created a tongle (remove/add)
